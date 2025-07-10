@@ -2,18 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
   <title>Test Embed</title>
 </head>
 <body>
   <h1>テストページ</h1>
   <script type="module" src="https://embed.croissant.buzz/embed/dist/widget.mjs"></script>
   <script type="module">
-    window.renderMyComponent({
-      contentUid: '6EG1bB72',
-      type: 'popup',
-      testMode: true
-    });
+    window.renderMyComponent(
+      { contentUid: '6EG1bB72', 
+       type: 'popup',
+       testMode: false }
+    );
   </script>
 </body>
 </html>
